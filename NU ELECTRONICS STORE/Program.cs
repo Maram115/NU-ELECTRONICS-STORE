@@ -16,7 +16,7 @@ namespace NU_ELECTRONICS_STORE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form8());
+            Application.Run(new Form12());
         }
     }
 }
