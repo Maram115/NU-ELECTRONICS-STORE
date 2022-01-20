@@ -46,6 +46,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,6 +60,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(-3, 0);
             this.panel1.Name = "panel1";
@@ -238,6 +242,24 @@
             this.button6.Text = "Wearable Tech";
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.SkyBlue;
+            this.button7.Location = new System.Drawing.Point(691, 4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(116, 28);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "Check Cart";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(147, 27);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Search ";
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -296,5 +318,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
