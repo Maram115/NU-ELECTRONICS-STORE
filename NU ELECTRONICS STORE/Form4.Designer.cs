@@ -149,7 +149,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 35);
             this.button2.TabIndex = 13;
-            this.button2.Text = "Create ";
+            this.button2.Text = " Create ";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // panel1
@@ -199,7 +199,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(765, 612);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);

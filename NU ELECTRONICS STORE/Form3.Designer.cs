@@ -133,7 +133,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
             this.button1.TabIndex = 11;
-            this.button1.Text = "Create one  ";
+            this.button1.Text = " Create one  ";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // Form3
@@ -141,7 +141,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(765, 612);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
